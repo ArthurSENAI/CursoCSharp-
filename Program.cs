@@ -1,3 +1,4 @@
 ﻿using CursoCSharp;
 
-ArrayExemplos.DemonstrarArray();
+//ArrayExemplos.DemonstrarArray();
+//ListaExemplo.DemonstrarLista();

@@ -56,7 +56,7 @@ namespace CursoCSharp
 
             Console.WriteLine("\nAcessando elementos de um array jagged:");
             Console.WriteLine($"Elemento [0][1] do jaggedArray: {jaggedArray[0][1]}");
-            Console.WriteLine($"Elemento [2][3] do jaggedArray: {jaggedArray[2][3]}");
+            Console.WriteLine($"Elemento [2][3] do jaggedArray: {jaggedArray[2][3]}\n");
         }
     }
 }
