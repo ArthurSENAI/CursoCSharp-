@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Desktop\\TEC.INFO\\TEC.INFO.csproj": {}
+    "C:\\Users\\Aluno\\Desktop\\CursoCSharp-\\TEC.INFO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Desktop\\TEC.INFO\\TEC.INFO.csproj": {
+    "C:\\Users\\Aluno\\Desktop\\CursoCSharp-\\TEC.INFO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\TEC.INFO\\TEC.INFO.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\CursoCSharp-\\TEC.INFO.csproj",
         "projectName": "TEC.INFO",
-        "projectPath": "C:\\Users\\Aluno\\Desktop\\TEC.INFO\\TEC.INFO.csproj",
+        "projectPath": "C:\\Users\\Aluno\\Desktop\\CursoCSharp-\\TEC.INFO.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Desktop\\TEC.INFO\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\Desktop\\CursoCSharp-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
