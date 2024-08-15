@@ -42,15 +42,17 @@ tr1.ExecutarDivisao(0,2); */
 
 EscopoVariaveisExercicio exercicioArthur = new EscopoVariaveisExercicio();
 //exercicioArthur.CalculaSoma(2,4);
-//exercicioArthur.XCondicional(5);
+//exercicioArthur.XCondicional(2);
+//exercicioArthur.CapturarExcecao("a");
+exercicioArthur.NumeroPositivo(2);
 
 /* EscopoVariaveisExercicio.Carro carro = new EscopoVariaveisExercicio.Carro();
 carro.marca = "Toyota";
 carro.Escrever(); // Exercicio 2
-carro.ConflitoEscopo(); // Exercicio 3 */
+carro.ConflitoEscopo(); // Exercicio 3  */
 
-EscopoVariaveisExercicio.Contador contador = new EscopoVariaveisExercicio.Contador();
-contador.IncrementarPor10(5);
+/* EscopoVariaveisExercicio.Contador contador = new EscopoVariaveisExercicio.Contador();
+contador.IncrementarPor10(5); */
 
 
 

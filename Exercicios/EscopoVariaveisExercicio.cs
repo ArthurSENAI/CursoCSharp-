@@ -102,6 +102,35 @@ namespace CursoCSharp.Exercicios
                 }
             }
 
+        /* 6.	Capturando uma Exceção de Conversão de Tipo
+            Tente converter uma string não numérica para um inteiro usando int.Parse. 
+            Use try-catch para capturar a exceção e imprima uma mensagem apropriada. */
 
+            public void CapturarExcecao(string converterNum)
+            {
+                try
+                {
+                    int num = int.Parse(converterNum);
+                    Console.WriteLine($"Número convertido: {num}");
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine($"Ocorreu um erro de conversão: {ex.Message}");
+                }
+            }
+
+        /* 7.	Lançando Exceções
+            Escreva um método que recebe um número inteiro. 
+            Se o número for negativo, lance uma ArgumentException. 
+            Capture a exceção no método Main e imprima uma mensagem apropriada. */
+
+        public void NumeroPositivo(int numero)
+        {
+            if (numero < 0)
+            {
+                throw new ArgumentException("Número não pode ser negativo.");
+            }
+            Console.WriteLine($"Número válido: {numero}");
+        }
     }
 }
