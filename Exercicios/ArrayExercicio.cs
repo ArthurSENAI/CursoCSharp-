@@ -54,7 +54,7 @@ namespace CursoCSharp.Exercicios
             Crie um array de strings chamado nomes com os valores "Ana", "Bruno", "Carla". 
             Mude o valor de "Bruno" para "Beto" e depois imprima todos os elementos do array. */
 
-            public static void Exercicio3()
+            /* public static void Exercicio3()
             {
                 List<string> nomes = new List<string> { "Ana", "Bruno", "Carla" };
                 foreach(var nome in nomes)
@@ -67,6 +67,27 @@ namespace CursoCSharp.Exercicios
                 foreach(var nome in nomes)
                 {
                     Console.WriteLine($"O nome na posição {nomes.IndexOf(nome)} foi: {nome}");
+                }
+            } */
+
+            public static void Exercicio3()
+            {
+                string[] nomes = { "Ana", "Bruno", "Carla" };
+                foreach (var nome in nomes)
+                {
+                    Console.WriteLine($"Nome: {nome}");
+                }
+                Console.WriteLine("\n");
+                for (int i = 0; i < nomes.Length; i++)
+                {
+                    if (nomes[i] == "Bruno")
+                    {
+                        nomes[i] = "Beto";
+                    }
+                }
+                foreach (var nome in nomes)
+                {
+                    Console.WriteLine($"Nome: {nome}");
                 }
             }
 
