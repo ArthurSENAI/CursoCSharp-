@@ -40,11 +40,11 @@ tr1.ExecutarDivisao(0,2); */
 //ListExercicio.Exercicio4();
 
 
-EscopoVariaveisExercicio exercicioArthur = new EscopoVariaveisExercicio();
+//EscopoVariaveisExercicio exercicioArthur = new EscopoVariaveisExercicio();
 //exercicioArthur.CalculaSoma(2,4);
 //exercicioArthur.XCondicional(2);
 //exercicioArthur.CapturarExcecao("a");
-exercicioArthur.NumeroPositivo(2);
+//exercicioArthur.NumeroPositivo(2);
 
 /* EscopoVariaveisExercicio.Carro carro = new EscopoVariaveisExercicio.Carro();
 carro.marca = "Toyota";
@@ -55,6 +55,16 @@ carro.ConflitoEscopo(); // Exercicio 3  */
 contador.IncrementarPor10(5); */
 
 
+ParadigmasPOO conceitos = new ParadigmasPOO();
+
+// Explicar Orientação a Objetos
+conceitos.ExplicarOrientacaoAObjetos();
+
+// Explicar a diferença entre Programação Estruturada e Orientada a Objetos
+conceitos.DiferencaEntreParadigmas();
+
+// Explicar os Pilares da Orientação a Objetos
+conceitos.ExplicarPilares();
 
 
 

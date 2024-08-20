@@ -113,7 +113,15 @@ namespace CursoCSharp.Exercicios
             {
                 int[] numeros = { 5, 10, 15, 20, 25};
                 bool contemQuinze = numeros.Contains(15);
-                Console.WriteLine($"O array contém o número 15: {contemQuinze}");
+                if(contemQuinze)
+                {
+                    Console.WriteLine($"O array contém o número 15: {contemQuinze}");
+                }
+                else
+                {
+                    Console.WriteLine($"O array não contém o número 15: {contemQuinze}");
+                }
+                
             }
 
     }
