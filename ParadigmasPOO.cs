@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace CursoCSharp
 {
     // Classe que explica os conceitos básicos de Orientação a Objetos
-    public class ParadigmasPOO 
+    public class ParadigmasPOO
     {
         // Método que explica o que é Orientação a Objetos
         public void ExplicarOrientacaoAObjetos()
