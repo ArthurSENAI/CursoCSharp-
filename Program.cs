@@ -1,4 +1,5 @@
-﻿using CursoCSharp;
+﻿using System.Runtime.InteropServices;
+using CursoCSharp;
 using CursoCSharp.Exercicios;
 
 //ArrayExemplos.DemonstrarArray();
@@ -83,7 +84,7 @@ Console.WriteLine($"Pessoa2: {pessoa2.Nome}, Idade: {pessoa2.Idade}");
 Console.WriteLine($"Número total de pessoas: {Pessoa.NumeroDePessoas}");
  */
 
-// Instanciando a classe Produto usando o construtor padrão
+/* // Instanciando a classe Produto usando o construtor padrão
 Produto produto1 = new Produto();
 produto1.ExibirInformacoes();
 
@@ -99,8 +100,35 @@ produto1.ExibirInformacoes();
 
 // Acessando método protegido através da classe derivada
 ProdutoEspecial produtoEspecial = new ProdutoEspecial();
-produtoEspecial.ExibirMetodoProtegido();
+produtoEspecial.ExibirMetodoProtegido(); */
 
+/* Carro toyota = new Carro("Toyata","Corolla",2022); */
+/* Carro toyota = new Carro(); */
+/* toyota.Marca = "Toyota";
+toyota.Modelo = "Corolla";
+toyota.Ano = 2022; */
+/* toyota.ExibirInformacoes(); */
+
+/* PessoaNova Arthur = new PessoaNova();
+
+Arthur.Nome = "Arthur";
+Arthur.Idade = 29;
+Arthur.Cidade = "Brasilia";
+Arthur.ExibirInformacoes(); */
+
+Variavel exemplo = new Variavel();
+exemplo.Soma(2, 4);
+exemplo.ExibirInformacoes();
+
+int[] idadesTeste = { 16, 18, 20, 25, 17 };
+
+foreach (int idade in idadesTeste)
+{
+    bool resultado = exemplo.VerificarMaioridade(idade);
+    Console.WriteLine($"Idade: {idade} - Maior de idade? {resultado}");
+}
+
+exemplo.ExibirAltura();
 
 
 
